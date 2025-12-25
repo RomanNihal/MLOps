@@ -46,3 +46,7 @@ print(f"CSV file saved to {file_path}")
 # Again - - "dvc commit" and then "dvc push"
 # Then git add-commit-push (we're saving V2 of our data at this point)
 # Check dvc/git status, everything should be upto date.
+
+# "git checkout hash" to revert to any version of the code
+# "dvc status" will show changed because the code version and the data version doesn't match
+# "dvc pull" will pull the corresponding data version
