@@ -16,3 +16,4 @@ __pycache__/
 Thumbs.db
 
 # Exclude specific folder
+/DVC/data
