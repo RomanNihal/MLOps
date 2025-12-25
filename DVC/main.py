@@ -9,6 +9,15 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 
 df = pd.DataFrame(data)
 
+# Adding new row to df for V2
+new_row_loc = pd.Series(
+    {'Name': 'Roman', 'Age': 24, 'City': 'Dhaka'},
+    index=df.columns
+)
+
+df.loc[len(df)] = new_row_loc
+
+
 # Ensure the "data" directory exists
 data_dir = 'DVC/data'
 os.makedirs(data_dir, exist_ok=True)
