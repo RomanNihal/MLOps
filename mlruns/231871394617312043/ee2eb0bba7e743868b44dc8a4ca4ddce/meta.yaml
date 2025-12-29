@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLOps/mlruns/231871394617312043/ee2eb0bba7e743868b44dc8a4ca4ddce/artifacts
+end_time: 1767026340398
+entry_point_name: ''
+experiment_id: '231871394617312043'
+lifecycle_stage: active
+run_id: ee2eb0bba7e743868b44dc8a4ca4ddce
+run_name: stately-whale-655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767026340114
+status: 3
+tags: []
+user_id: USER
