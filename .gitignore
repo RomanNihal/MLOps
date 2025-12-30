@@ -17,3 +17,4 @@ Thumbs.db
 
 # Exclude specific folder
 /DVC/data
+/mlruns

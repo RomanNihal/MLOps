@@ -17,13 +17,13 @@ y = wine.target # type: ignore
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.10, random_state=42)
 
 # Define the params for RF model
-max_d = 10
+max_d = 5
 n_es = 5
 
 # Set MLflow tracking URI to local mlruns folder
 mlflow.set_tracking_uri("file:///E:/MLOps/mlruns")
 
-mlflow.set_experiment("Default")
+mlflow.set_experiment("new_exp")
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_d, n_estimators=n_es, random_state=42)
     rf.fit(X_train, y_train)
