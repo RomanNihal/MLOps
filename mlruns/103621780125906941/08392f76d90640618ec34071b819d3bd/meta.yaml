@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLOps/mlruns/103621780125906941/08392f76d90640618ec34071b819d3bd/artifacts
+end_time: 1767285682390
+entry_point_name: ''
+experiment_id: '103621780125906941'
+lifecycle_stage: active
+run_id: 08392f76d90640618ec34071b819d3bd
+run_name: respected-frog-789
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767285673355
+status: 3
+tags: []
+user_id: USER
