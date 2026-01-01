@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLOps/mlruns/103621780125906941/76c435d99d834506bc6150399fe04874/artifacts
+end_time: 1767119126262
+entry_point_name: ''
+experiment_id: '103621780125906941'
+lifecycle_stage: active
+run_id: 76c435d99d834506bc6150399fe04874
+run_name: blushing-stoat-746
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767119125921
+status: 3
+tags: []
+user_id: USER

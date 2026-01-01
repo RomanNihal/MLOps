@@ -1,0 +1,10 @@
+artifact_location: file:///E:/MLOps/mlruns/103621780125906941/models/m-9acb2c869d2243fa80cbc961c67f142e/artifacts
+creation_timestamp: 1767244275121
+experiment_id: '103621780125906941'
+last_updated_timestamp: 1767244280826
+model_id: m-9acb2c869d2243fa80cbc961c67f142e
+model_type: null
+name: Random Forest
+source_run_id: a820b88452c242c5ae476574f3b13601
+status: 2
+status_message: null

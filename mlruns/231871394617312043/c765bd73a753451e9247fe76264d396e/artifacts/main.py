@@ -23,7 +23,7 @@ n_es = 5
 # Set MLflow tracking URI to local mlruns folder
 mlflow.set_tracking_uri("file:///E:/MLOps/mlruns")
 
-mlflow.set_experiment("new_exp")
+mlflow.set_experiment("Default")
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_d, n_estimators=n_es, random_state=42)
     rf.fit(X_train, y_train)
@@ -91,11 +91,5 @@ with mlflow.start_run():
     NOTE:
     Always save the artifact to disk before calling `mlflow.log_artifact`.
     """
-
-    # tags
-    mlflow.set_tags({"Author": "Roman", "project": "mlflow practice"})
-
-    # log the model
-    mlflow.sklearn.log_model(rf, "Random Forest") # type: ignore
 
     print(accuracy)

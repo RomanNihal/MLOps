@@ -92,10 +92,4 @@ with mlflow.start_run():
     Always save the artifact to disk before calling `mlflow.log_artifact`.
     """
 
-    # tags
-    mlflow.set_tags({"Author": "Roman", "project": "mlflow practice"})
-
-    # log the model
-    mlflow.sklearn.log_model(rf, "Random Forest") # type: ignore
-
     print(accuracy)

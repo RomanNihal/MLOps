@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLOps/mlruns/231871394617312043/eb3a1707c5e24ef1bf1bb2ebf9a47db9/artifacts
+end_time: 1767117569637
+entry_point_name: ''
+experiment_id: '231871394617312043'
+lifecycle_stage: active
+run_id: eb3a1707c5e24ef1bf1bb2ebf9a47db9
+run_name: able-newt-626
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767117568912
+status: 3
+tags: []
+user_id: USER

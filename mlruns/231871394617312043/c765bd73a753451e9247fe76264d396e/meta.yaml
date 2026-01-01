@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/MLOps/mlruns/231871394617312043/c765bd73a753451e9247fe76264d396e/artifacts
+end_time: 1767117653168
+entry_point_name: ''
+experiment_id: '231871394617312043'
+lifecycle_stage: active
+run_id: c765bd73a753451e9247fe76264d396e
+run_name: angry-crane-78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767117652863
+status: 3
+tags: []
+user_id: USER
